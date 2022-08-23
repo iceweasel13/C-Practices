@@ -1,6 +1,7 @@
 					
 #include<stdio.h>
 #include<stdlib.h>
+//iki diziyi birlestirme ve sıralama islemi
 int main()
 {
 	int *a,*b,*c,n,m,i,j,s;
@@ -14,7 +15,7 @@ int main()
 	{
 		scanf("%d",&a[i]);
 	}
-	printf("�kinci dizinin elemanlarini giriniz:",m);
+	printf("Ýkinci dizinin elemanlarini giriniz:",m);
 	for(i=0;i<m;i++)
 	{
 		scanf("%d",&b[i]);
